@@ -1,6 +1,6 @@
 import cv2
-eye_cascPath = 'path_to_haarcascade/haarcascade_eye_tree_eyeglasses.xml' #default cascades provided by opencv
-face_cascPath = 'path_to_haarcascade/haarcascade_frontalface_alt.xml' #default cascades provided by opencv
+eye_cascPath = 'haarcascade_eye_tree_eyeglasses.xml' #default cascades provided by opencv
+face_cascPath = 'haarcascade_frontalface_alt.xml' #default cascades provided by opencv
 faceCascade = cv2.CascadeClassifier(face_cascPath)
 eyeCascade = cv2.CascadeClassifier(eye_cascPath)
 
